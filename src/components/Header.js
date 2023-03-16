@@ -14,7 +14,7 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <LinkContainer to="/">
+            <LinkContainer to="/batching">
               <Nav.Link>Batching</Nav.Link>
             </LinkContainer>
             <NavDropdown title="Hooks" id="collasible-nav-dropdown">

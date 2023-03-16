@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<AutoBatching />}></Route>
+          <Route exact path="/batching" element={<AutoBatching />}></Route>
           <Route exact path="/useid" element={<UseidHook />}></Route>
           <Route
             exact
