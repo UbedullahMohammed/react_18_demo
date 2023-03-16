@@ -8,7 +8,7 @@ function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
-        <LinkContainer to="/">
+        <LinkContainer to="/batching">
           <Navbar.Brand>React-18</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -33,7 +33,7 @@ function Header() {
             </NavDropdown>
             <NavDropdown title="Suspense" id="collasible-nav-dropdown">
               <LinkContainer to="/suspense">
-                <NavDropdown.Item>Suspense Ex1</NavDropdown.Item>
+                <NavDropdown.Item>Suspense Ex</NavDropdown.Item>
               </LinkContainer>
             </NavDropdown>
             <NavDropdown title="Strickmode" id="collasible-nav-dropdown">
